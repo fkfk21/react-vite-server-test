@@ -1,3 +1,3 @@
 #! /bin/bash
 
-docker compose run --service-ports backend bash
+docker compose run --rm --service-ports backend bash

@@ -15,4 +15,4 @@ RUN /tmp/init.sh
 
 COPY --chown=node:node ./scripts/_bashrc /home/node/.bash_aliases
 
-CMD ["/bin/bash"]
+CMD ["npm", "run", "dev"]

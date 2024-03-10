@@ -12,6 +12,7 @@ services:
       - 4000:3000
     environment:
       - SERVICE_NAME=frontend
+  
   backend:
     build: *node_image
     volumes:
