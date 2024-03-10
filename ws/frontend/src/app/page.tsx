@@ -3,6 +3,7 @@ import reactLogo from '@/assets/react.svg';
 import viteLogo from '/vite.svg';
 
 import './styles.css';
+import { Button } from 'flowbite-react';
 
 export function Page() {
   const [count, setCount] = useState(0);
@@ -59,6 +60,7 @@ export function Page() {
         <p className="text-blue-300 bg-red-600">
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+        <Button>Click me</Button>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
