@@ -1,3 +1,3 @@
 #! /bin/bash
 
-docker compose run frontend bash
+docker compose run --service-ports frontend bash

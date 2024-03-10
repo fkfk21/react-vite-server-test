@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 USER node
-WORKDIR /home/node
+WORKDIR /home/node/ws
 
 COPY ./scripts/init.sh /tmp/init.sh
 RUN /tmp/init.sh
