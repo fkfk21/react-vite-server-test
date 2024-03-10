@@ -12,7 +12,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"_bashrc": "shellscript"
-		}
+			"_bashrc": "shellscript",
+			"*.css": "tailwindcss",
+		},
 	}
 }

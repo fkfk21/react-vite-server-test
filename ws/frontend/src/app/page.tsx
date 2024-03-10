@@ -56,7 +56,7 @@ export function Page() {
         >
           fetch
         </button>
-        <p>
+        <p className="text-blue-300 bg-red-600">
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>

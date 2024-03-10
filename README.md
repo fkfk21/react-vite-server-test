@@ -11,3 +11,16 @@ formatter -> Prettier
 
 ## Backend
 Express + Typescript
+
+## Development
+frontend
+```
+./login_frontend.sh
+npm run dev
+```
+
+backend
+```
+./login_backend.sh
+npm run dev
+```
